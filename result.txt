@@ -1,0 +1,8 @@
+Entrez le nombre de philosophes: 
+Recette de pain pour 5 philosophes :
+- 1000.0 gr de farines
+- 6.2 dl d'eau
+- 25.0 grammes de levure
+- 12.5 gramme de sel
+- 2.5 cl de beurre
++ de l'epices à volonté
