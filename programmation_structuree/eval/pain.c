@@ -26,4 +26,5 @@ int main() {
     printf("- %.1f gramme de sel\n", sel);
     printf ("- %.1f cl de beurre\n", beurre);
     printf("+ de l'epices à volonté");
+    /***/
 }
