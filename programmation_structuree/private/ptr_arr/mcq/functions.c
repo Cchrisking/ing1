@@ -1,21 +1,22 @@
-int val1, val2 val3;
-    int myptrX, myptrY, myptr;
-    myptrX = &val1;
-    myptrY = &val2;
-    val1 = 7;
-    val2 = 2;
-    val3 = 3;
-    myptr = &val3
-    *myptr = val1 + val2;
-    *myptrX = *myptr;
-    myptrX = &val2;
+double division(double dividende, int diviseur ){
+    if(diviseur == ){
+        return -1;
+    }
+    else{
+       return dividende / diviseur;
+    }
+}
 
-    /* V2 * */
-    *myptr = val2 + val3;
-    *myptrX = *myptr;
-    myptrX = &val2;
-    /* V3 * */
-    *myptY = val1 + val2;
-    *myptrX = *myptrY;
-    myptrX = &val3;
-    printf("%i", *myptrY);
+int main(void){
+double quotient;
+// À compléter ici :
+    // 1. déclarer une variable nommé quotient
+    ---------------------------------------------------------
+    // 2. Appeler la fonction division(…)
+    ---------------------------------------------------------
+    // 3. Stocker le résultat dans quotient
+    ---------------------------------------------------------
+    // 4. Afficher le quotient
+    ---------------------------------------------------------
+
+}
