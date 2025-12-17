@@ -30,6 +30,10 @@ int meilleurEtudiant(Etudiant *etudiants, int taille){
   }
   return meilleur;
 }
+char s[5] = "abc";
+A. strlen(s) vaut 5
+B. s[3] == '\0'
+C. s[4] == '\0'
 int main(int argc, char const *argv[]) {
   Etudiant etudiants[10];
   for (int i = 0; i < 10; i++) {

@@ -16,3 +16,18 @@ void modifierTableau(int monTableau[MAX]) {
   monTableau[0] = 33;
   printf("%d\n", monTableau[0]);
 }
+int remplissageTableau(int tableauDEntiers[]) {
+int n = 0;
+printf("Combien d'entiers voulez-vous ajouter ?\n");
+scanf("%d", &n);
+if (n > NB_ELEM_MAXI) {
+printf("Erreur : Le tableau est limité à %d éléments.", NB_ELEM_MAXI);
+return -1;
+}
+printf("Entrez les éléments un à un :\n");
+for (int i = 0; i < n; i++) {
+scanf("%d", &tableauDEntiers[i]); // On modifie directement le tableau original
+}
+return n; // On peut utiliser le return pour la taille logique
+}
+void afficherTableau(int tableau[], int taille) { /* ... */ }
